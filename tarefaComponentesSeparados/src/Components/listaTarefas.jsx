@@ -1,5 +1,5 @@
 import Tarefas from "./components/tarefas"
-function tarefas(){
+function Tarefas(){
 return(
 <>
 
@@ -7,39 +7,39 @@ return(
 tarefaRealizada="- Arrumar o quarto."
 />
 
-<tarefas
+<Tarefas
 tarefaRealizada="- Fazer a pesquisa de Geografia."
 />
 
-<tarefas
+<Tarefas
 tarefaRealizada="- Fazer o poema de Português."
 />
 
-<tarefas
+<Tarefas
 tarefaRealizada="- Organizar o Diário de bordo de Matemática."
 />
 
-<tarefas
+<Tarefas
 tarefaRealizada="- Tirar o lixo."
 />
 
-<tarefas
+<Tarefas
 tarefaRealizada="- Passear com o Tobby Johnson Silva Oliveira de vovó, as 14:30."
 />
 
-<tarefas
+<Tarefas
 tarefaRealizada="- Ir na academia."
 />
 
-<tarefas
+<Tarefas
 tarefaRealizada="- Terminar Game of Thrones."
 />
 
-<tarefas
+<Tarefas
 tarefaRealizada="- Fazer almoço(Strogonoff)."
 />
 
-<tarefas
+<Tarefas
 tarefaRealizada="- Praticar inglês."
 />
 
@@ -47,3 +47,5 @@ tarefaRealizada="- Praticar inglês."
 )
 
 }
+
+export default Tarefas;
