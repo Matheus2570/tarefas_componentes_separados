@@ -21,7 +21,7 @@ function Tarefas(props) {
           className={Concluido ? "Concluida" : "botaoConcluir"}
           disabled={Concluido}
         >
-          {Concluido ? "Concluida" : "Concluir"}
+          {Concluido ? "Concluida ✅" : "Concluir ➖"}
         </button>
       </div>
     </>
