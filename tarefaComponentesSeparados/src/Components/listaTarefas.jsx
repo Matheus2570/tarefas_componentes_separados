@@ -1,9 +1,9 @@
-import tarefas from "./Components/tarefas"
+import Tarefas from "./components/tarefas"
 function tarefas(){
 return(
 <>
 
-<tarefas
+<Tarefas
 tarefaRealizada="- Arrumar o quarto."
 />
 
