@@ -1,0 +1,51 @@
+.blocoTarefas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    padding: 0.2%;
+    background-color: #d0d0d0d7;
+    width: 17%;
+    }
+    
+    
+    .botaoConcluir {
+        background-color: #4CAF50; 
+        color: #fff;
+    width: 5.5vw;
+    height: 6vh;
+    font-size: 0.9em;
+        border: none;
+        border-radius: 5%;
+        cursor: pointer;
+      }
+      
+      .botaoConcluir:hover {
+        background-color: #3e8e41; 
+      }
+      
+      .Concluida {
+        background-color: #E74C3C; 
+        color: #fff;
+        width: 5.5vw;
+        height: 6vh;
+        font-size: 0.9em;
+        border: none;
+        border-radius: 5%;
+        cursor: pointer;
+      }
+      
+      .Concluida:hover {
+        background-color: #C0392B; 
+      }
+      
+      .tarefaRealizada {
+        font-size: 1.1em;
+        font-weight: bold;    
+      }
+      
+      .risco {
+        text-decoration: line-through;
+        color: #666;
+        font-style: italic;
+      }
