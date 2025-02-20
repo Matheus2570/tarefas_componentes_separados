@@ -1,4 +1,4 @@
-import "./tarefas.css";
+import "./tarefas.css"
 import { useState } from "react";
 
 function Tarefas(props) {
@@ -10,7 +10,6 @@ function Tarefas(props) {
 
   return (
     <>
-    <div className="blocoMaior">
     <div className="blocoTarefas">
         <p
           className={`tarefaRealizada ${Concluido ? "risco" : ""}`}
@@ -25,7 +24,6 @@ function Tarefas(props) {
           {Concluido ? "Concluida" : "Concluir"}
         </button>
       </div>
-    </div>
     </>
   );
 }

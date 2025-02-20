@@ -1,16 +1,19 @@
 .blocoTarefas{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    margin-top: 1%;
     gap: 1vw;
-    padding: 0.2%;
+    padding: 0.5%;
+    border-radius: 2%;
     background-color: #d0d0d0d7;
-    width: 17%;
+    width: 39%;
     }
     
     
     .botaoConcluir {
-        background-color: #4CAF50; 
+      background-color: #E74C3C; 
+    
         color: #fff;
     width: 5.5vw;
     height: 6vh;
@@ -21,11 +24,13 @@
       }
       
       .botaoConcluir:hover {
-        background-color: #3e8e41; 
+        background-color: #C0392B;  
       }
       
       .Concluida {
-        background-color: #E74C3C; 
+    
+        background-color: #4CAF50; 
+
         color: #fff;
         width: 5.5vw;
         height: 6vh;
@@ -36,7 +41,8 @@
       }
       
       .Concluida:hover {
-        background-color: #C0392B; 
+      
+        background-color: #3e8e41; 
       }
       
       .tarefaRealizada {
@@ -46,6 +52,7 @@
       
       .risco {
         text-decoration: line-through;
-        color: #666;
+        color: rgba(35, 139, 49, 0.882);
         font-style: italic;
+      
       }
